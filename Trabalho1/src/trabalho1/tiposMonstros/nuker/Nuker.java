@@ -5,10 +5,34 @@
  */
 package trabalho1.tiposMonstros.nuker;
 
+import trabalho1.habilidades.Habilidades;
+
 /**
  *
  * @author Joao
  */
-public class Nuker extends Nuke {
+public class Nuker extends Nuke implements Habilidades{
+    
+    
+    
+    @Override
+    public void atqBasico() {
+        System.out.println(""+this.atqBas);
+    }
+
+    @Override
+    public void primeiraHabilidade() {
+        System.out.println(""+this.hab1);
+    }
+
+    @Override
+    public void segundaHabilidade() {
+        System.out.println(""+this.hab2);
+    }
+
+    @Override
+    public void passiva() {
+        System.out.println(""+this.pass);
+    }
     
 }
