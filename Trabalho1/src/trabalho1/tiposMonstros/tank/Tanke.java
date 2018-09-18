@@ -13,4 +13,24 @@ import trabalho1.monstro.Monstro;
  */
 public abstract class Tanke extends Monstro{
     
+    
+    @Override
+    public void atqBasico() {
+        System.out.println(""+this.atqBas);
+    }
+
+    @Override
+    public void primeiraHabilidade() {
+        System.out.println(""+this.hab1);
+    }
+
+    @Override
+    public void segundaHabilidade() {
+        System.out.println(""+this.hab2);
+    }
+
+    @Override
+    public void passiva() {
+        System.out.println(""+this.pass);
+    }
 }
