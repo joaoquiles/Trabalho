@@ -34,8 +34,12 @@ public class Trabalho1 {
             opcao = Integer.parseInt(JOptionPane.showInputDialog(null, "Qual será a classe do monstro"
                     +"\n1 - Nuker"
                     +"\n2 - Tank"
-                    +"\n3 - Suporte"));
+                    +"\n3 - Suporte"
+                   
+                    +"\n0 - Sair"));
             switch (opcao) {
+                case 0: 
+                    break;
                 case 1:
                     colecao.add(metodo.criandoNuker());
                     break;
@@ -45,6 +49,7 @@ public class Trabalho1 {
                 case 3:
                     colecao.add(metodo.criandoSuporte());
                     break;
+                    
                 default:
                     break;
             }

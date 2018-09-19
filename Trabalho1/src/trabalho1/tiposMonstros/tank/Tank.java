@@ -5,6 +5,8 @@
  */
 package trabalho1.tiposMonstros.tank;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Joao
@@ -12,21 +14,21 @@ package trabalho1.tiposMonstros.tank;
 public class Tank extends Tanke{
     @Override
     public void atqBasico() {
-        System.out.println("Atq Basico");
+        JOptionPane.showMessageDialog(null,""+this.atqBas);
     }
 
     @Override
     public void primeiraHabilidade() {
-        System.out.println("Habilidade 1");
+        JOptionPane.showMessageDialog(null,""+this.hab1);
     }
 
     @Override
     public void segundaHabilidade() {
-        System.out.println("Habilidade 2");
+        JOptionPane.showMessageDialog(null,""+this.hab2);
     }
 
     @Override
     public void passiva() {
-        System.out.println("Passiva");
+        JOptionPane.showMessageDialog(null,""+this.pass);
     }
 }

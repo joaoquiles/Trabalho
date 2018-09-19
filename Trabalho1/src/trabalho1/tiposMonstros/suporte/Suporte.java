@@ -5,6 +5,8 @@
  */
 package trabalho1.tiposMonstros.suporte;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Joao
@@ -13,22 +15,22 @@ public class Suporte extends Suport{
 
     @Override
     public void atqBasico() {
-        System.out.println(""+this.atqBas);
+        JOptionPane.showMessageDialog(null,""+this.atqBas);
     }
 
     @Override
     public void primeiraHabilidade() {
-        System.out.println(""+this.hab1);
+        JOptionPane.showMessageDialog(null,""+this.hab1);
     }
 
     @Override
     public void segundaHabilidade() {
-        System.out.println(""+this.hab2);
+        JOptionPane.showMessageDialog(null,""+this.hab2);
     }
 
     @Override
     public void passiva() {
-        System.out.println(""+this.pass);
+        JOptionPane.showMessageDialog(null,""+this.pass);
     }
     
 }

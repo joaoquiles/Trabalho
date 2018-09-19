@@ -4,8 +4,15 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Joao/Documents/NetBeansProjects/Trabalho1/src/trabalho1/tiposMonstros/nuker/Nuker.java</file>
+            <file>file:/C:/Users/Joao/Documents/NetBeansProjects/Trabalho1/src/trabalho1/excecoes/AtqInvalido.java</file>
+            <file>file:/C:/Users/Joao/Documents/NetBeansProjects/Trabalho1/src/trabalho1/excecoes/VidaInvalida.java</file>
+            <file>file:/C:/Users/Joao/Documents/NetBeansProjects/Trabalho1/src/trabalho1/tiposMonstros/suporte/Suporte.java</file>
             <file>file:/C:/Users/Joao/Documents/NetBeansProjects/Trabalho1/src/trabalho1/habilidades/Habilidades.java</file>
             <file>file:/C:/Users/Joao/Documents/NetBeansProjects/Trabalho1/src/trabalho1/Trabalho1.java</file>
+            <file>file:/C:/Users/Joao/Documents/NetBeansProjects/Trabalho1/src/trabalho1/excecoes/VeloInvalido.java</file>
+            <file>file:/C:/Users/Joao/Documents/NetBeansProjects/Trabalho1/src/trabalho1/tiposMonstros/tank/Tank.java</file>
+            <file>file:/C:/Users/Joao/Documents/NetBeansProjects/Trabalho1/src/trabalho1/excecoes/DefInvalida.java</file>
+            <file>file:/C:/Users/Joao/Documents/NetBeansProjects/Trabalho1/src/trabalho1/tiposMonstros/nuker/Nuke.java</file>
             <file>file:/C:/Users/Joao/Documents/NetBeansProjects/Trabalho1/src/trabalho1/monstro/Monstro.java</file>
         </group>
     </open-files>

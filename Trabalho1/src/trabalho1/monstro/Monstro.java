@@ -25,6 +25,12 @@ public abstract class Monstro implements Habilidades{
     public Monstro(){
     
     }
+    public Monstro(int atq, int def, int velo, int vida){
+        this.atq = atq;
+        this.def = def;
+        this.vida = vida;
+        this.velo = velo;
+    }
     
     public void setNome(String nome){
         this.nome = nome;
